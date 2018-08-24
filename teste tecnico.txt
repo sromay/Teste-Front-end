@@ -1,0 +1,13 @@
+
+
+
+1) Ao usar classes com nomes diferentes não há problema em importar varias folhas de estilo na pagina, porém usando classes de mesmo nome a ultima classe chamada sera sobreposta as anteriores de mesmo nome, a nao ser que use @media e cada folha de estilo seja correspondente a um display de tamanho especifico por exemplo, celular,  tablet, desktop etc.
+2 Cuidar da infra estrutura otimizando sua hospedagem, usar compressao de arquivos HTML CSS JS, otimizar o codigo HTML identando, corrigir codigos invalidos ou desnecessarios, comprimir imagens.
+3) Até o momento, nao usamos ferramentas para testar performance, a nao ser o teste pelo brownser, unica ferramenta de teste foi o EMAG para testar a acessibilidade do site
+4)Ao meu ver seriam elementos como, DIV, Container, FOOTER, HEADER, BODY
+5) A maior diferença seria na visibilidade/segurança na qual o GET mostra a string e o POST encapsula a string no envio,  o tamanho da GET tambem seria menor q o POST e a velocidade de envio GET seria maior devido a simplicidade comparado ao POST.
+6) Block, inlineblock, Inline, Table
+7) O elemento inline nao pode ser definido tamanhos nem espaçamentos diferente do inline-block
+8)O posicionamento relativo necessita que seja em conjunto com as propriedades para que altera o posicionamento sem que nenhum elemento tome o lugar, no absoluto quando dada as propriedades o elemento proximo toma o lugar do anterior, estatico seria o padrao onde os elementos ficam onde estao, o fixo pelo se adequa a uma referencia na pagina.
+9)call ao ser declarado verifica contexto e parametro por parametro já o apply verifica o contexto e uma array jah declarada com varios parametros.
+10)== eh afirmação na qual 1==1 verdadeiro, compara os valores, já === compara os valores declarados e o tipo de variavel declarada também.
